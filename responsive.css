@@ -1,0 +1,200 @@
+@media(max-width: 1200px){   
+    .description h1{
+        margin: 0;
+        padding: 50px 100px;
+        color: #fff;
+        text-shadow: 0 0 10px black;
+    }
+    .homegallery{
+        display: block;
+        text-align: center;
+    }
+    .homegallery iframe{
+        width: 800px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.7);
+        margin: 10px;
+    }
+    iframe.frame{
+        height: 400px;
+    }
+    iframe.frame1{
+        height: 800px;
+    }   
+    .homeheading h3{
+        margin-top: -700px;
+    }
+    .links span{
+        color:black;
+        font-size: 30px;
+        font-family: sans-serif;
+        padding-left: 150px;
+        text-shadow: 0 0 10px white;
+    }
+    .map img{
+        margin-left: 15%;
+        width:550px; 
+        height: 250px;
+      }
+      .cnmap{
+        width: 20%;
+        height: 40px;
+        background: none;
+        border: none;
+        margin-top:10px;
+        margin-left: 10%;
+        font-size: 15px;
+        border-radius: 50px;
+        cursor: pointer;
+        font-family: sans-serif;
+        font-weight: bold;
+        margin-right: 1%;
+        text-decoration: underline;
+        text-decoration-color: black;
+        text-shadow: 0 0 10px white;
+      }
+    
+}
+
+@media(max-width: 800px){
+    .hideOnMobile{
+        display: none;
+      }
+    .menuButton{
+        display: flex;
+    }
+    .nav{
+        display: flex;
+        padding: 2% 6%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .navbar{
+        flex: 1;
+        text-align: right;
+        font-family: cursive;
+    
+    }
+    .navbar ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 8px 12px;
+        position: relative;
+        margin-right: 2%;
+    }
+    .navbar ul li a{
+        color: burlywood;
+        text-decoration: none;
+        font-size: 20px;
+        
+    }
+    .navbar ul li::after{
+        content: '';
+        width: 0%;
+        height: 2px;
+        background-color: #fff;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+    }
+    .navbar ul li:hover::after{
+        width: 100%;
+    }
+    
+    
+    nav .fa-solid{
+        display: none;
+    }
+    
+    .homegallery iframe{
+        width: 400px;
+    }
+    .homeheading{
+        padding-top: -100px;
+    }
+    iframe.frame1{
+        height: 400px;
+    }   
+    .ra{
+        margin-top: -80%;
+    }
+    .ra h1{
+        margin-top: -40%; 
+    }
+    .links span{
+        color:black;
+        font-size: 30px;
+        font-family: sans-serif;
+        padding-left: 150px;
+        text-shadow: 0 0 10px white;
+    }
+    .map img{
+        margin-left: 15%;
+        width:300px; 
+        height: 130px;
+      }
+      .cnmap{
+        width: 20%;
+        height: 40px;
+        background: none;
+        border: none;
+        margin-top:10px;
+        margin-left: 45%;
+        font-size: 15px;
+        border-radius: 50px;
+        cursor: pointer;
+        font-family: sans-serif;
+        font-weight: bold;
+        margin-right: 1%;
+        text-decoration: underline;
+        text-decoration-color: black;
+        text-shadow: 0 0 10px white;
+      }
+      .links h5{
+        font-family: sans-serif;
+        font-size: 15px;
+        padding-left: 100px;
+        margin-top: 50px;
+        letter-spacing: 1px;
+        color: black;
+        font-weight:bolder;
+        text-align:left;
+        text-shadow: 0 0 10px white;
+    }
+    .links .cn span{
+        width: 20%;
+        height: 40px;
+        background: none;
+        border: none;
+        margin-top:10px;
+        margin-left:-150px;
+        font-size: 12px;
+        border-radius: 50px;
+        cursor: pointer;
+        font-family: cursive;
+        font-weight: bold;
+        margin-right: 1%;
+        text-decoration: underline;
+        text-decoration-color: black;
+        text-shadow: 0 0 10px white;
+        
+    }
+   
+}
+
+@media(max-width: 400px){
+    .homeheading h3{
+        margin-top: -800px;
+    }
+    .description h1{
+        padding: 30px;
+    }
+    .homegallery iframe{
+        width: 250px;
+    }
+    .homegallery{
+        display: block;
+        text-align: center;
+    }
+}
+

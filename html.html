@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <link rel="icon" type="image/x-icon" href="logo.jpg">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="lightbox.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    
+</head>
+<body>
+   <div class="main">
+       
+            <nav>
+                <div class="icon">
+                    <h2 class="logo"><img src="logoo" alt=""></h2>
+                </div>
+                <ul class="sidebar">
+                    <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>    
+                    <li onclick=hideSidebar()><a href="html.html">Home</a></li>
+                    <li onclick=hideSidebar()><a href="about.html">About</a></li>
+                    <li onclick=hideSidebar()><a href="fa.html">Products</a></li>
+                    <li onclick=hideSidebar()><a href="ra.html">Services</a></li>
+                    <li onclick=hideSidebar()><a href="others.html">Contact</a></li>
+                </ul>
+        
+        
+                <ul>
+                    <li class="hideOnMobile"><a href="html.html">Home</a></li>
+                    <li class="hideOnMobile"><a href="about.html">About</a></li>
+                    <li class="hideOnMobile"><a href="fa.html">Products</a></li>
+                    <li class="hideOnMobile"><a href="ra.html">Services</a></li>
+                    <li class="hideOnMobile"><a href="others.html">Contact</a></li>
+                    <li onclick=showSidebar() class="menuButton"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg><a href="#">
+                    </a></li>
+                </ul>
+                <script>
+                function showSidebar(){
+                    const sidebar = document.querySelector('.sidebar')
+                    sidebar.style.display = 'flex'
+
+                }
+                
+                function hideSidebar(){
+                    const sidebar = document.querySelector('.sidebar')
+                    sidebar.style.display = 'none'
+                }
+
+                </script>
+            </nav>
+        </div>
+    </div>
+
+    <div class="homeheading">
+        <h1></h1>
+        <h3>A46 Picnic <span class="grove"> Grove</span></h3>
+        <h2>#sulong aleosan</h2>
+    </div>
+    <div class="description">
+        <h1>"The ambiance is designed to foster a sense of community, making A46 the perfect spot for intimate gatherings, casual meetings, or simply a solo escape to savor the joy of good food. Our attentive and friendly staff adds a personal touch to your dining experience, ensuring that you feel not just like a customer, but a valued guest."</h1>
+    </div>
+   
+    <div class="homecontainer"></div>
+<div class="homegallery">
+
+    <iframe class="frame1" src="https://www.facebook.com/plugins/video.php?height=350&href=https%3A%2F%2Fwww.facebook.com%2Farea46picnicgrove%2Fvideos%2F106849712363621%2F&show_text=false&width=350&t=0" 
+
+    style="border:none;overflow:hidden" 
+    scrolling="no" frameborder="0" 
+    allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" 
+    allowFullScreen="true"
+    data-lightbox="models"
+    transition="goes-up"
+    transform="translateY(100%)">
+    </iframe>
+
+    <iframe class="frame" src="https://www.facebook.com/plugins/post.php?height=400&href=https%3A%2F%2Fwww.facebook.com%2Farea46picnicgrove%2Fphotos%2Fa.142487027730427%2F294163799229415%2F%3Ftype%3D3&show_text=true&width=350" 
+    width="500" height="504" 
+    style="border:none;overflow:hidden" 
+    scrolling="no" frameborder="0" 
+    allowfullscreen="true" 
+    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+    </iframe>
+    
+    <iframe src="https://www.facebook.com/plugins/post.php?height=600&href=https%3A%2F%2Fwww.facebook.com%2Farea46picnicgrove%2Fposts%2Fpfbid02PReK8pSXzcarGhn11PnN8SSbixtFwz2taNzw7xq92eiUgwggm6sA6iUgTkYqemDJl&show_text=true&width=350" 
+   width="650"
+    style="border:none;overflow:hidden" 
+    scrolling="no" frameborder="0" 
+    allowfullscreen="true" 
+    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+    data-lightbox="models">
+    </iframe>
+    
+   
+<script src="lightbox-plus-jquery.js"></script>
+   
+  
+   </div>
+
+   <div class="linkshome">
+    
+   
+    <footer>
+        <div class="linkshome">
+        <h2>Contact Us on:</h2>
+        <h3> <img src="fbicon.png">
+           <button class="cn"><a href="https://www.facebook.com/area46picnicgrove?mibextid=ZbWKwL.html">Official A46 Facebook Page</a></button>
+        </h3>
+        <h4>
+            <img src="igicon.jfif">
+            <button class="cn"><a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fa46picnicgrove%3Figsh%3DMWtpM2E5cDZvaHY5aQ%253D%253D%26fbclid%3DIwAR3JGrJ3bMoL1MoZhceHA1MruXpqlpDvSo6AxkA40son1x2Su9oisfSXpZg&h=AT0pH79WI6UqeR7rlQJmPkz_jSsNS3B-Dnz6IBHMQuxMfpA1ZShEQQsghTHzAtnfztdBbNS5a4R5cl-aU2T-7g2s0fTGBJkd9jvhcsEr3HBROGBV8BTFLbRZaNwlcKf8teAuEA.html">Official A46 Instagram Account</a></button>
+        </h4>     
+        <h5>
+           <img src="cpicon.png">
+           <button class="cn"><a href="09675182982"><span>09675182982</span></a></button>
+        </h5>
+        <p>&copy; 2024 A46 Picnic Grove. All rights reserved.</p>
+        </div>
+    </footer>
+
+</div>   
+</body>
+
+</html>
